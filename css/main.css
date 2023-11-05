@@ -1,0 +1,172 @@
+.hidden {
+  display: none;
+}
+
+.container {
+  width: 428px;
+  margin: 0 auto;
+}
+
+.box-color {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.box-color2 {
+  background-color: #717171;
+  text-align: center;
+}
+
+#main-header {
+  height: 80px;
+}
+
+#header-logo {
+  height: 46px;
+  align-self: center;
+}
+
+#header-nav {
+  height: 36px;
+  align-self: center;
+}
+
+#hero {
+  height: 636px;
+  width: 428px;
+}
+
+#hero-image {
+  height: 333px;
+  width: 408px;
+  margin-top: 15px;
+}
+
+#hero-text {
+  height: 217px;
+  width: 408px;
+  align-self: baseline;
+}
+
+#work {
+  height: 758px;
+}
+
+#work-overlay {
+  height: 296px;
+  margin-top: 462px;
+}
+
+#work1 {
+  height: 220px;
+  margin-top: 30px;
+}
+
+#work2 {
+  height: 220px;
+  margin-top: 30px;
+}
+
+#work3 {
+  height: 220px;
+  margin-top: 30px;
+}
+
+#work4 {
+  height: 220px;
+  margin-top: 30px;
+}
+
+#work5 {
+  height: 220px;
+  margin-top: 30px;
+}
+
+#work6 {
+  height: 220px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#main-footer {
+  height: 270px;
+}
+
+#footer-logo {
+  height: 46px;
+  margin-top: 20px;
+}
+
+#footer-nav {
+  height: 140px;
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  #main-header {
+    height: 90px;
+  }
+  #header-logo {
+    height: 63px;
+    align-self: center;
+  }
+  #hero {
+    height: 580px;
+  }
+  #hero-image {
+    height: 560px;
+    width: 550px;
+  }
+  #hero-text {
+    height: 283px;
+    width: 378px;
+  }
+  #work {
+    height: 473px;
+  }
+  #work-overlay {
+    height: 473px;
+    margin-top: 0px;
+  }
+  #work1 {
+    height: 220px;
+    margin-top: 30px;
+  }
+  #work2 {
+    height: 220px;
+    margin-top: 30px;
+  }
+  #work3 {
+    height: 220px;
+    margin-top: 30px;
+  }
+  #work4 {
+    height: 220px;
+    margin-top: 30px;
+  }
+  #work5 {
+    height: 220px;
+    margin-top: 30px;
+  }
+  #work6 {
+    height: 220px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  #main-footer {
+    height: 270px;
+  }
+  #footer-logo {
+    height: 46px;
+    margin-top: 20px;
+  }
+  #footer-nav {
+    height: 140px;
+    margin-bottom: 32px;
+  }
+}/*# sourceMappingURL=main.css.map */
