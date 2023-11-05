@@ -58,6 +58,22 @@
   margin-top: 30px;
 }
 
+#xrayimage {
+  height: 380px;
+  margin-top: 30px;
+}
+
+#xraytext {
+  height: 380px;
+}
+
+#video {
+  height: 850px;
+  width: 428px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 #main-footer {
   height: 270px;
 }
@@ -103,6 +119,19 @@
     height: 500px;
     margin-top: 30px;
   }
+  #xrayimage {
+    height: 290px;
+    margin-top: 30px;
+  }
+  #xraytext {
+    height: 290px;
+    margin-top: 30px;
+  }
+  #video {
+    height: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
   #main-footer {
     height: 270px;
   }
@@ -145,6 +174,19 @@
   #slider {
     height: 900px;
     margin-top: 30px;
+  }
+  #xrayimage {
+    height: 390px;
+    margin-top: 30px;
+  }
+  #xraytext {
+    height: 390px;
+    margin-top: 30px;
+  }
+  #video {
+    height: 900px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
   #main-footer {
     height: 270px;
