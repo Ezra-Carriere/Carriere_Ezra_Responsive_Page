@@ -50,14 +50,14 @@ img, embed, object, video, picture {
       grid-template-columns: 1fr minmax(0, 1200px) 1fr;  
   }
   
-   .grid-con { 
+   .grid { 
      display: grid;
      grid-template-columns: repeat(4, minmax(0, 1fr));
-     grid-column-gap: 30px;
+     grid-column-gap: 10px;
      max-width: 1200px;
      margin: 0 auto;
-     padding-left: 15px;
-     padding-right: 15px;
+     padding-left: 10px;
+     padding-right: 10px;
   }
   
   /* A keyword indicating that the property contributes nothing to the grid item's placement, indicating auto-placement, an automatic span, or a default span of 1. */
@@ -85,7 +85,7 @@ img, embed, object, video, picture {
   
   @media screen and (min-width: 768px) { 
      
-     .grid-con { 
+     .grid { 
         display: grid; 
         grid-template-columns: repeat(12, minmax(0, 1fr));
         grid-column-gap: 20px;
@@ -144,7 +144,7 @@ img, embed, object, video, picture {
   
   @media screen and (min-width: 1200px) { 
   
-     .grid-con { 
+     .grid { 
         display: grid; 
         grid-template-columns: repeat(12, minmax(0, 1fr));
         grid-column-gap: 30px;
@@ -202,7 +202,7 @@ img, embed, object, video, picture {
   
   @media screen and (min-width: 1920px) { 
   
-     .grid-con { 
+     .grid { 
         display: grid; 
         grid-template-columns: repeat(12, minmax(0, 1fr));
         grid-column-gap: 34px;
