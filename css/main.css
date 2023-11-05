@@ -103,6 +103,73 @@
   margin-bottom: 32px;
 }
 
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    margin: 0 auto;
+  }
+  #main-header {
+    height: 90px;
+  }
+  #header-logo {
+    height: 63px;
+    align-self: center;
+  }
+  #hero {
+    height: 580px;
+  }
+  #hero-image {
+    height: 560px;
+    width: 550px;
+  }
+  #hero-text {
+    height: 283px;
+    width: 378px;
+  }
+  #work {
+    height: 473px;
+  }
+  #work-overlay {
+    height: 473px;
+    margin-top: 0px;
+  }
+  #work1 {
+    height: 220px;
+    margin-top: 30px;
+  }
+  #work2 {
+    height: 220px;
+    margin-top: 30px;
+  }
+  #work3 {
+    height: 220px;
+    margin-top: 30px;
+  }
+  #work4 {
+    height: 220px;
+    margin-top: 30px;
+  }
+  #work5 {
+    height: 220px;
+    margin-top: 30px;
+  }
+  #work6 {
+    height: 220px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  #main-footer {
+    height: 270px;
+  }
+  #footer-logo {
+    height: 46px;
+    margin-top: 20px;
+  }
+  #footer-nav {
+    height: 140px;
+    margin-bottom: 32px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
