@@ -16,10 +16,30 @@
     <h1 class="hidden">Earbuds Page</h1>
         <div class="container box-color2">
             <header id="main-header" class="grid">
-                <div id="header-logo" class="box-color col-start-1 col-end-2 m-col-start-1 m-col-end-2 l-col-start-1 l-col-end-2"></div>
-                <nav id="header-nav" class="box-color col-start-4 col-end-5 m-col-start-6 m-col-end-13 l-col-start-6 l-col-end-13">
+                <div id="header-logo" class="box-color2 col-start-1 col-end-3 m-col-start-1 m-col-end-5 l-col-start-1 l-col-end-4">
+                    <img src="images/SP.svg" id="header-logo-img">
+                </div>
+                <nav id="main-nav" class="col-span-full m-col-start-8 m-col-end-13 xl-col-start-8 xl-col-end-13">
                     <h2 class="hidden">Main Navigation</h2>
+                    <div id="burger-con">
+                        <ul>
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">Products</a>
+                            </li>
+                            <li>
+                                <a href="#">Components</a>
+                            </li>
+                        </ul>
+                    </div>
                 </nav>
+                <button id="burger-btn" class="col-start-4 col-end-5">
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                            </button>
             </header>
         </div>
 
@@ -44,14 +64,13 @@
 
         <div class="container">
             <section id="xray" class="grid">
-                <div id="xrayimage" class="box-color col-span-full m-col-start-1 m-col-end-7 l-col-start-1 l-col-end-7"></div>
+                <div id="xrayimage" class="box-color2 col-span-full m-col-start-1 m-col-end-7 l-col-start-1 l-col-end-7"></div>
                 <div id="xraytext" class="box-color2 col-span-full m-col-start-7 m-col-end-13 l-col-start-7 l-col-end-13"></div>
             </section>
         </div>
 
-        <div class="container box-color">
-            <section id="video" class="grid box-color">
-            </section>
+        <div class="col-span-full">
+            <canvas id="explode-view"></canvas> 
         </div>
 
             <div class="container box-color2">
