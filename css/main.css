@@ -145,6 +145,7 @@
   }
   #hero {
     height: 500px;
+    width: 768px;
   }
   #product1 {
     height: 220px;
@@ -214,6 +215,7 @@
   }
   #hero {
     height: 900px;
+    width: 1200px;
   }
   #product1 {
     height: 380px;
