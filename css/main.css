@@ -48,6 +48,10 @@
   text-decoration: none;
 }
 
+#video {
+  margin-top: 10px;
+}
+
 #product1 {
   height: 380px;
   margin-top: 30px;
